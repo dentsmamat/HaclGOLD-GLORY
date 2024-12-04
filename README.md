@@ -1,4 +1,3 @@
-# HackGOLD-GLORY
 function find_library_base(lib_name, state_filter)
     local ranges = gg.getRangesList(lib_name)
     for _, range in ipairs(ranges) do
